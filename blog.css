@@ -4,9 +4,9 @@
 }
 
 .box {
-  background-color: gray;
+  background-color: black;
   opacity: 0.75;
-  color: green;
+  color: white;
   border-radius: 10px; /* do relative at some point */
   padding: 10px; 
   border: 20px;
@@ -18,13 +18,13 @@
   column-gap: 30px;
   row-gap: 10px;          
   grid-template-columns: repeat(5, 1fr);
-  color: gray;
+  color: black;
   
 }
 
 .grid1 {
   grid-column: 1 / span 2;
-  grid-row: 1;
+  grid-row: 1 / span 4;
   margin-left: 20px;
 }
 
